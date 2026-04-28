@@ -4,7 +4,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://keycloak.smscompany.net/realms/cms
+          issuer-uri: https://keycloak.cmscompany.net/realms/cms
   datasource:
     url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/anniversaryDB}
     username: ${JDBC_DATABASE_USERNAME:postgres}
